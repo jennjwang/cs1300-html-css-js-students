@@ -2,6 +2,21 @@
   background-color: lightblue;
 }
 
+.gallery-item{
+  width: 10rem;
+  height: auto;
+  padding: 1rem;
+}
+
+.gallery-item:hover{
+  outline-style: solid;
+  outline-color: red;
+}
+
 .gallery-container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
